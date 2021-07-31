@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: adel
+      changes:
+        - sqlFile:
+            dbms: h2
+            encoding: utf8
+            path: 20210617.000.init.sql
+            relativeToChangelogFile: true

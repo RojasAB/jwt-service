@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: 20210617.000.init.yml
+      relativeToChangelogFile: true
+  - include:
+      file: 20210617.001.alter-user.yml
+      relativeToChangelogFile: true
+  - include:
+      file: 20210619.002.create-table-change-password-request.yml
+      relativeToChangelogFile: true

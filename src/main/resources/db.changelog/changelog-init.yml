@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+     file: 20210617.000.init.yml
+     relativeToChangelogFile: true

@@ -1,0 +1,1 @@
+ALTER TABLE IF EXISTS USER RENAME COLUMN user_name TO username
